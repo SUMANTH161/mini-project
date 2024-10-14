@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Register Page</title>
+</head>
+
+<body>
+    <h1>Register Page</h1>
+    <nav>
+        <li><a id="Home" href="online shopping.html">Home</a></li>
+    </nav>
+
+    <p class="top">CREATE USERNAME & PASSWORD:</p>
+
+    <div>
+        <p class="head">REGISTER HERE!</p>
+        <form id="registerForm">
+            <p>Enter Your Name:</p>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+
+            <p>Enter Your Gmail:</p>
+            <input type="email" name="email" id="email" placeholder="Gmail" required>
+
+            <p>Enter Your Phone Number:</p>
+            <input type="text" name="phone" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+
+            <p>User Name:</p>
+            <input type="text" name="uname" id="uname" placeholder="User Name" required>
+
+            <p>Password:</p>
+            <input type="password" name="pass" id="pass" placeholder="Password" required>
+
+            <p>Confirm Password:</p>
+            <input type="password" name="confirmPass" id="confirmPass" placeholder="Confirm Password" required><br><br>
+
+            <input id="sub" type="submit" value="Register">
+        </form>
+    </div>
+
+    <script src="registration.js"></script> 
+</body>
+
+</html>

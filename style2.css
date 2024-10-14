@@ -1,0 +1,63 @@
+body{
+    background-image: url("DALL·E\ 2024-10-04\ 23.07.24\ -\ A\ modern\ and\ stylish\ background\ image\ for\ a\ clothing\ website.\ The\ background\ should\ have\ a\ soft\,\ neutral\ color\ palette\ with\ light\ textures\ or\ patterns.webp");
+    background-size: cover;
+    height: 100%;
+}
+h3{
+    color: white;
+    border: 2px solid black;
+    padding-left: 5px;
+    margin-left: 2px;
+    background-color: black;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#style{
+    background: linear-gradient(  rgba(0, 0, 255, 0),#e6d0b1);
+
+    align-items: center;
+    margin-right: 55%;
+    margin-left: 15%;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+h3{
+    text-align: center;
+}
+
+div{
+    
+border: 1px solid black;
+  opacity: .9;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#Home{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  #sub{
+    background: linear-gradient(RGB(255, 192, 203),RGB(245, 245, 220));
+    
+  }
+  #sub:hover{
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+
+}

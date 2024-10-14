@@ -1,0 +1,27 @@
+body{
+    background-image: url("DALL·E\ 2024-10-04\ 23.07.24\ -\ A\ modern\ and\ stylish\ background\ image\ for\ a\ clothing\ website.\ The\ background\ should\ have\ a\ soft\,\ neutral\ color\ palette\ with\ light\ textures\ or\ patterns.webp");
+    background-size: cover;   
+    height: 100%;
+}
+p{
+    color: black;
+    font-size:x-large;
+    text-shadow: 1px 1px 9px black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: dotted underline black;
+    text-shadow: 1px 1px 9px black;
+
+}
+#Home{
+    background: linear-gradient(to bottom,  #e6d0b1,black);
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
